@@ -1,2 +1,8 @@
 setclipboard("1073486837")
 print("✅ 已复制QQ群号: 1073486837")
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "复制QQ群号",
+    Text = "已复制",
+    Duration = 5
+})
